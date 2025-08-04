@@ -1,0 +1,143 @@
+[gd_scene load_steps=9 format=3 uid="uid://x7mhwmpty6b4"]
+
+[ext_resource type="Script" uid="uid://dvjbuklc0bp3t" path="res://scripts/MainMenu.gd" id="1_l72w3"]
+[ext_resource type="Texture2D" uid="uid://g7odivy3ydhe" path="res://assets/menu_bg.png" id="2_l72w3"]
+[ext_resource type="Texture2D" uid="uid://begp1iuahcpvx" path="res://assets/main_menu.png" id="3_826wr"]
+[ext_resource type="FontFile" uid="uid://diq6tdd8mhscu" path="res://fonts/PixelGamer-Regular.otf" id="4_mipys"]
+[ext_resource type="Texture2D" uid="uid://dim1y8pxtacnx" path="res://assets/button.png" id="4_ucygd"]
+[ext_resource type="FontFile" uid="uid://dyaqsrecc34xv" path="res://fonts/PIXEL CRAFT.ttf" id="5_ucygd"]
+[ext_resource type="AudioStream" uid="uid://tukoa0oyww6o" path="res://Sounds/musica_menu.mp3" id="6_826wr"]
+[ext_resource type="AudioStream" uid="uid://4rar5cgfksvf" path="res://Sounds/digitando.wav" id="8_mipys"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l72w3")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_l72w3")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = 237.0
+offset_top = 367.0
+offset_right = 900.0
+offset_bottom = 581.0
+texture = ExtResource("3_826wr")
+expand_mode = 1
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -130.0
+offset_top = 100.0
+offset_right = 130.0
+offset_bottom = 141.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("4_mipys")
+theme_override_font_sizes/font_size = 40
+text = "FRAGMENTOS DE KUMA"
+horizontal_alignment = 1
+
+[node name="NameLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 265.0
+offset_top = 234.0
+offset_right = 326.0
+offset_bottom = 257.0
+theme_override_fonts/font = ExtResource("4_mipys")
+theme_override_font_sizes/font_size = 20
+text = "Nome:"
+
+[node name="NameInput" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 264.0
+offset_right = 874.0
+offset_bottom = 304.0
+theme_override_fonts/font = ExtResource("4_mipys")
+theme_override_font_sizes/font_size = 20
+text = "juju"
+
+[node name="AgeLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 326.0
+offset_right = 327.0
+offset_bottom = 349.0
+theme_override_fonts/font = ExtResource("4_mipys")
+theme_override_font_sizes/font_size = 20
+text = "Idade:"
+
+[node name="AgeInput" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 265.0
+offset_top = 353.0
+offset_right = 874.0
+offset_bottom = 398.0
+theme_override_fonts/font = ExtResource("5_ucygd")
+theme_override_font_sizes/font_size = 19
+text = "21"
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 298.0
+offset_top = 458.0
+offset_right = 868.0
+offset_bottom = 568.0
+texture_normal = ExtResource("4_ucygd")
+
+[node name="StartButton" type="Button" parent="TextureButton"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -91.0
+offset_top = -84.0
+offset_right = 91.0
+offset_bottom = -37.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("4_mipys")
+theme_override_font_sizes/font_size = 25
+text = "Iniciar Game"
+
+[node name="MusicGameMenu" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_826wr")
+volume_db = 1.89
+
+[node name="MusicWriting" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_mipys")
+volume_db = 1.638
+
+[node name="ScreenFade" type="ColorRect" parent="."]
+visible = false
+z_index = 100
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[connection signal="text_changed" from="NameInput" to="." method="_on_input_text_changed"]
+[connection signal="text_changed" from="AgeInput" to="." method="_on_input_text_changed"]
+[connection signal="pressed" from="TextureButton/StartButton" to="." method="_on_start_button_pressed"]

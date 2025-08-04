@@ -1,0 +1,15 @@
+CollisionShape2D
+Area2D
+NavigationAgent2D
+Marker2D
+Polygon2D
+NavigationRegion2D
+ColorRect
+VideoStreamPlayer
+TextEdit
+Button
+HBoxContainer
+Label
+TextureButton
+AnimationPlayer
+TileMap

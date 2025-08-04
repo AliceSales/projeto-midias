@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://4cr7y1lr5601"]
+
+[ext_resource type="Script" uid="uid://docqm0o7gdmut" path="res://scenes/utils/Portal.gd" id="1_ihtlr"]
+[ext_resource type="Texture2D" uid="uid://doqyws2ga78q0" path="res://assets/boss_intruder_win_bg.png" id="2_tk7ql"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qfbi"]
+size = Vector2(87, 81)
+
+[node name="Portal" type="Area2D"]
+script = ExtResource("1_ihtlr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 2.5)
+shape = SubResource("RectangleShape2D_5qfbi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(0.154688, 0.154688)
+texture = ExtResource("2_tk7ql")

@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxvcx07h78u7n"]
+
+[ext_resource type="Script" uid="uid://b5wjjhqhoqgs" path="res://scripts/NPC.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://nf73c4swrltk" path="res://assets/kuma.png" id="2_6xvi5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ktgr7"]
+radius = 42.0
+height = 84.0
+
+[node name="NPC" type="Node2D"]
+script = ExtResource("1")
+
+[node name="NPC#Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 4)
+scale = Vector2(0.186183, 0.186183)
+texture = ExtResource("2_6xvi5")
+
+[node name="NPC#CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ktgr7")
+
+[node name="NPC#CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="CanvasLayer#Panel" type="Panel" parent="."]
+
+[node name="CanvasLayer_Panel#HBoxContainer" type="HBoxContainer" parent="CanvasLayer#Panel"]
+offset_right = 20.0
+offset_bottom = 8.0
+
+[node name="CanvasLayer_Panel_HBoxContainer#Button" type="Button" parent="CanvasLayer#Panel/CanvasLayer_Panel#HBoxContainer"]
+layout_mode = 2
+
+[node name="CanvasLayer_Panel_HBoxContainer#Button2" type="Button" parent="CanvasLayer#Panel/CanvasLayer_Panel#HBoxContainer"]
+layout_mode = 2
+
+[node name="CanvasLayer_Panel#Label" type="Label" parent="CanvasLayer#Panel"]
+offset_right = 1.0
+offset_bottom = 23.0
