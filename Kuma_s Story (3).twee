@@ -1,0 +1,884 @@
+:: StoryTitle
+Kuma's Story
+
+
+:: StoryData
+{
+  "ifid": "B3A4BC2A-DC18-4460-93BE-773BF303718D",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Passagem sem Título",
+  "zoom": 0.6
+}
+
+
+:: \ Assassinato {"position":"1700,3900","size":"100,100"}
+Kuma luta contra todos os soldados e com incrivel força consegue matar todos. 
+Agora todos assistem e aguardam por suas palavras.
+
+[[Escolha 1 |Liberdade_e_dignidade]]
+
+[[Escolha 2 | Família_e_segurança]]
+
+[[Escolha 3 – |Orgulho_e_unidade]]
+
+[[Escolha 4 – |Vingança_pelos_últimos_anos]]
+
+
+:: \ Espantar {"position":"1800,4100","size":"100,100"}
+Após lutar e vencer todos estão lhe olhando, apesar de usar seu poder para absorver a energia dos soldados, e ter sido uma luta fácil, você esta coberto com sangue deles e com alguns ferimentos leves...
+O que você vai dizer ao povo?
+ 
+[[Escolha 1 |Liberdade_e_dignidade]]
+
+[[Escolha 2 | Família_e_segurança]]
+
+[[Escolha 3 – |Orgulho_e_unidade]]
+
+[[Escolha 4 – |Vingança_pelos_últimos_anos]]
+
+
+:: \ Família_e_segurança {"position":"1000,3900","size":"100,100"}
+Lutaremos por nossas famílias!
+Pelas mães que enterraram seus filhos, pelos pais que foram levados aos campos, pelos lares partidos e silenciados.
+Lutaremos para que nenhuma criança do sul durma mais com medo.
+
+[[Escolha 1 – |Levante_violento_contra_o_povo_do_norte]]
+— Vamos levar o fogo para o norte, para que sintam em suas peles o que causaram à nossa!
+Não haverá trégua, não haverá piedade. Quem se calou diante da dor do sul será agora julgado por ela.
+
+[[Escolha 2 – |Derrubar_o_rei_e_salvar_os_levados]]
+— Vamos até a capital!
+Vamos derrubar o rei e libertar cada homem, mulher e criança arrastados para os campos do medo!
+Lutamos não por destruição, mas por salvação!
+
+[[Escolha 3 – |Destruir_o_governo_e_seus_aliados]]
+— Não queremos apenas o rei. Queremos cada dedo sujo que sustentou esse trono!
+Vamos arrancar o sistema pela raiz, e construir um novo mundo sobre as ruínas dos tiranos!
+
+[[Escolha 4 – |Morrer_lutando_é_melhor_do_que_ajoelhar-se]]
+— Preferimos morrer em pé do que viver de joelhos!
+Se a guerra é o preço da dignidade, pagaremos com sangue, suor e esperança!
+E cada gota será semente de liberdade!
+
+
+:: \ Final_Revolucionario {"position":"700,4700","size":"100,100"}
+Você agora é o líder da revolução no país de sobert.
+
+
+:: Agir {"position":"1925,3525","size":"100,100"}
+[[Invadir a tenda rapidamente e fugir com a criança|Fim_Pai_Adotivo]]
+[[Atacar um soldado e correr par tirar distraí-los enquanto o contador devolve a criança|Fim_fugitivo]]
+[[Atacar e espantar os soldados!|Ataque]]
+[[Atacar e matar os soldado| Assassinato]]
+
+
+:: Agredir_Soldado_cansado {"position":"100,1900","size":"100,100"}
+Após espancar o soldado cansado, ele desmaiou e esqueceu quem fez isso com ele.
+
+Kuma segue para a entrega do tributo.
+
+[[Seguir para o posto de coleta |Posto_de_Coleta]]
+
+
+:: Apresenta_revoltados {"position":"400,600","size":"100,100"}
+**Velho:**  
+A seca foi um problema que afetou todo o país, porém a fome foi sentida apenas por nós do sul, naquela época, algumas cidades do norte tinham uma tecnologia que conseguia trazer chuva, era muito caro, então eles utilizaram com moderação apenas para as manter as colheitas deles.
+
+Por aqui, quase metade das pessoas apelaram para a violência, tentaram invadir e roubar a tecnologia das cidades do norte. A repressão forte exercida da parte do rei dispersou os revoltosos rapidamente, mas o povo ainda guarda muito rancor e magoa do rei. 
+Quem não quis lutar acabou sofrendo com os conflitos também. Quem lutou despreza que em escolheu a paz, enquanto eles tem raiva e culpam os demais por terem agravado a situação.
+
+[[Continuar ouvindo |Fim_da_Apresentacao_das_dificuldades]]  
+[[Eles não tinham opção a não ser se rebelar |Fim_da_Apresentacao_das_dificuldades]]  
+[[A guerra nunca é a melhor opção |Fim_da_Apresentacao_das_dificuldades]]  
+[[Me conte um pouco mais sobre este rei |Fim_da_Apresentacao_das_dificuldades]]  
+[[Deveriam lutar agora enquanto ainda estão vivos |justificativa]]  
+
+
+:: Ataque {"position":"2100,3800","size":"100,100"}
+Você Inicia uma luta com os soldados, usando seu poder voce vence, infligindo um grande mal nos soldados, como essa luta vai acabar?
+
+[[Matar os soldados| Assassinato]]
+
+[[Espantar os soldados para que não voltem| Espantar]]
+
+
+:: CENA FINAL DA PRIMEIRA INTERAÇÃO {"position":"325,975","size":"100,100"}
+Cena intermediária mostrando algum tempo passando e kuma se estabelecendo na vila.
+
+[[Ninguém me fará escravo de novo |Primeiro_Recolhimento]]  
+
+
+
+:: Cena_Abandono {"position":"300,200","size":"100,100"}
+\:: Cena_Abandono
+O velho solta um suspiro longo, como se já esperasse essa pergunta.
+
+**Velho:**  
+— Porque não temos mais voz. Nem valor.  
+Antigamente passava tropa, mensageiro, médico. Agora só vêm os coletores de dor... e os caçadores de alma.  
+Os poucos que tinham o que vender, já venderam. Os que tinham pra onde ir, já partiram.  
+O resto... somos sombra.
+
+**Velho:**  
+— O governo quer que a gente desapareça. Nos apaga aos poucos, como vela acesa em dia de vento.
+
+
+[[Absorver a dor emocional dele |Explicacao_dos_ultimos_anos]] 
+[[Estar aqui prova o quanto você é forte! |Explicacao_dos_ultimos_anos]] 
+[[Como o povo tem sobrevivido?  |Explicacao_dos_ultimos_anos]] 
+
+\::ID: Cena_Abandono  
+// Dimensão de empatia: Curiosidade empática  
+// Caminhos: Cena_Ajuda, Cena_Sobrevivencia, Cena_Silencio
+
+
+:: Cena_Agressao_Fisica {"position":"200,1500","size":"100,100"}
+**Kuma:**  
+— Diga isso de novo. Olhando nos meus olhos.
+
+**Soldado (rindo):**  
+— Fraco, sujo, inútil.  
+Essa vila é um peso morto. Como você.
+
+Sem pensar, Kuma desfere um soco certeiro no queixo do soldado. O homem cambaleia, mas reage rápido — treinamento.
+
+Ele rola para o lado, saca a haste curta do cinto e acerta Kuma com força no estômago.  
+Kuma cai de joelhos. O soldado pisa sobre seu ombro e cospe no chão.
+
+**Soldado:**  
+— Patético. Pelo seu tamanho achei que seria mais forte... É só mais um idiota, só mais um cão sem controle.  
+
+[[Usar o poder para cansar o soldado |Cena_Poder_Paralisar]]  
+[[Usar o poder para matar o soldado |Matar_Soldado]]  
+[[Usar o poder para exilar o soldado para outro país|Posto_de_Coleta]]
+
+
+:: Cena_Agressao_Verbal {"position":"400,1300","size":"100,100"}
+**Soldado**
+
+Vou me lembrar disso seu verme...
+
+[[|Posto_de_Coleta]]
+
+
+:: Cena_Pessoal {"position":"1000,125","size":"100,100"}
+\:: Cena_Pessoal
+O velho ergue as sobrancelhas, surpreso com a pergunta.
+
+**Velho:**  
+— Heh. Ninguém me pergunta isso há tempos...
+
+Ele observa suas mãos calejadas, o anzol quebrado ao lado.
+
+**Velho:**  
+— Eu tô bem... bem o bastante pra ainda estar aqui.  
+A vida me tirou filhos, esposa... mas não levou o mar.  
+Enquanto puder pescar, sou homem e conseguirei sobreviver. 
+A próposito, meu nome é Akainu.
+
+[[Absorver a dor emocional dele |Cena_Povo]]  
+[[Parece que a vida tem sido dura com você |Cena_Povo]]  
+[[Sinto muito por suas perdas|Cena_Povo]]  
+[[Mas afinal, o que aconteceu a vila nos ultimos anos?|Cena_Povo]] 
+
+\::ID: Cena_Pessoal  
+// Dimensão de empatia: Angústia pessoal  
+// Caminhos: Cena_Absorcao_Media, Cena_Companhia, Cena_ReiAntigo
+
+
+:: Cena_Poder_Paralisar {"position":"100,1700","size":"100,100"}
+O soldado ficou repentinamente fraco e cansado a ponto de não conseguir mais lhe conter
+
+[[Espancar o soldado |Agredir_Soldado_cansado]]
+[[Matar soldado com as próprias mãos. |Matar_Soldado]]
+[[Seguir o caminho sem sujar as mãos. |Posto_de_Coleta]]
+
+
+:: Cena_Povo {"position":"600,200","size":"100,100"}
+\:: Cena_Povo
+O velho abaixa os olhos e balança a cabeça.
+
+**Velho:**  
+— Talvez, por ser jovem, você não se lembre....
+As pessoas daqui, já foram muito felizes. Essa terra nunca foi um lugar fácil, mas jáeramos um povo unido, apesar da pobreza em nossa região. Sempre conseguimos viver com simplicidade, mantendo com orgulho nossa cultura e tradições... 
+
+Sempre que alguem precisava, havia alguém pronta para ajudar.
+
+Porém, nos últimos anos, a vida ficou ainda mais complicada, muitas coisas aconteceram e agora cada só consgue dar conta de si e de sua familía.
+
+
+[[O que causou isso ao povo? |Explicacao_dos_ultimos_anos]]  
+[[O mundo é realmente um lugar muito dificil!|Explicacao_dos_ultimos_anos]]  
+[[Ficar em silêncio e observar mais|Explicacao_dos_ultimos_anos]]
+
+
+
+:: Cena_Rebater {"position":"1000,1200","size":"100,100"}
+**Soldado** 
+
+— Foram essas mesmas pessoas que anos atrás mataram meus pais e muitos outros inocentes só por que nós viviamos em uma região mais abundante enquanto vocês passavam por uma breve seca!!
+
+[[— Sinto muito que isso tenha acontecido com você |Posto_de_Coleta]]
+[[— Nem todos aqui são culpados |Posto_de_Coleta]]
+[[— Você é um monstro tão mal quanto os assassinos dos seus pais |Posto_de_Coleta]]
+
+
+:: Cena_Velho_Machucado {"position":"2200,4500","size":"100,100"}
+Na volta para casa
+
+
+:: Conferir {"position":"2800,3000","size":"100,100"}
+Kuma Ainda perplexo anda em direção a tenda...
+Até que...
+
+**Soldado**
+
+— Ei Grandão, é melhor parar aí, não permitir que você se aproxime dos tributos.
+
+[[— Tem uma criança ai dentro, você sabe disso!!|Conversa]]
+[[— Então você vai ter que me impedir|Agir]]
+
+
+
+:: Conversa {"position":"2800,3125","size":"100,100"}
+**Soldado**
+— Infelizmente, de acordo com a nova lei, isso é permitido, essa criança terá uma vida decente. Será muito melhor do que viver aqui, ela terá mais oportunidades, talvez acabe servindo em uma casa com bons senhores.
+
+[[— Você é um monstro, como pode dizer isso com tanta tranquilidade?|Conversa_2]]
+[[— Isso significa separar uma criança de uma mãe, é algo terrível|Conversa_2]]
+[[— Você está insuando que esse bebê pode se tornar um escravo?|Conversa_2]]
+
+
+:: Conversa_2 {"position":"2925,3250","size":"100,100"}
+**Soldado**
+— É como eu disse, não sou eu quem faz as regras, estou apenas jogando o jogo, cumprindo as ordens, tudo isso está dentro da lei do Rei. Não posso desobedecer isso, Se é assim que as coisas funcionam, é desta forma que irei agir. Não tenho culpa.
+
+[[— Você carregará a culpa (infligir dor emocional)|Infiigr_dano_emocional]]
+[[— De acordo com sua lei eu posso deixar dinheiro entroca da criança, pagarei quanto precisar|Pagar]]
+[[— Espero que um dia você recupere sua humanidade|Entregar_tributo]]
+
+
+:: Conversa_Ironizando {"position":"1600,3025","size":"100,100"}
+**Senhora**
+
+— Você não tem ideia do que nos aguarda amanhã, muitas pessoas perderam seus animais, suas plantações e algumas até suas casas. Não venha com irônias, nesse momento. Apenas me deixe em paz
+
+ [[Parar para observar o local |Mae_Entrega_Filho]]
+
+
+:: Conversa_Senhora {"position":"1300,3300","size":"100,100"}
+**Senhora**
+— Não lhe interessa, nos faça o favor de cuidar da sua vida e nao arrumar confusão!
+
+ [[Parar para observar o local |Mae_Entrega_Filho]]
+
+
+:: Conversa_Sincera {"position":"1400,3400","size":"100,100"}
+**Senhora**
+
+ — O medo tem dominado a todos nós, tem sido cada vez mais difícil suportar a vida aqui! Espero poder ver o dia em que este desespero acabará!
+ 
+[[Parar para observar o local |Mae_Entrega_Filho]]
+
+
+:: Depositar {"position":"1500,2700","size":"100,100"}
+Kuma deposita o tributo e se afasta, anda um pouco para obervar ao redor até que...
+
+ [[Parar para observar o local |Mae_Entrega_Filho]]
+
+
+:: Derrubar_o_rei_e_salvar_os_levados {"position":"1000,4100","size":"100,100"}
+Eu sou Kuma, portador do poder da pata, posso tirar de uma pessoa a fadiga, o cansaço e tristeza e deposita-la em outro ser, mas também posso retirar a saúde de um e dar a outro, tirar a felicidade e a alegria e distribuil-la.
+
+
+[[Escolha 1 – |Falar_sobre_seu_poder_e_se_apresentar_como_líder]]
+— Eu sou apenas um homem.
+Mas se estivermos juntos eu tornarei todos os meus seguidores invencíveis. 
+Se me seguirem, serei o escudo entre o povo e o inferno. Eu sou Kuma... e hoje eu me torno vosso punho!
+
+[[Escolha 2 – |Tirar_dos_inimigos_e_dar_aos_apoiadores]]
+— Cada golpe que nos deram será devolvido em dobro!
+Eu vou arrancar dos nossos inimigos a força e a saúde que tomaram de nós — e entregarei aos que lutarem ao nosso lado.
+O que tiraram de nós... agora será nossa arma!
+
+[[Escolha 3 – |Tirar_dos_inimigos_e_dar_a_todo_o_povo_do_sul]]
+— Vou tomar dos opressores tudo o que acumularam!
+Sua força, sua vida, sua arrogância — será devolvida ao povo do sul!
+Seremos fortes juntos. E com o poder de vocês em mim... venceremos!
+
+
+:: Desafio {"position":"1975,1875","size":"100,100"}
+**Contador**
+
+— Vou pedir apenas uma vez, por favor, não torne este dia mais dificil do que ele precisa ser, acredite, estou tão infeliz com esta situação quanto você!
+
+**Kuma**
+[[— Para nós, este dia não é só dificil, estamos sofrendo |Gentil]]
+
+[[— Se tem consciência e escolhe agir assim, você é de quem eu tenho mais nojo |Gentil]]
+
+[[— Não ouse dizer isso, você desrespeita nossa dor dizendo isso |Gentil]]
+
+
+
+:: Destruir_o_governo_e_seus_aliados {"position":"400,4100","size":"100,100"}
+Eu sou Kuma, portador do poder da pata, posso tirar de uma pessoa a fadiga, o cansaço e tristeza e deposita-la em outro ser, mas também posso retirar a saúde de um e dar a outro, tirar a felicidade e a alegria e distribuil-la.
+
+
+[[Escolha 1 – |Falar_sobre_seu_poder_e_se_apresentar_como_líder]]
+— Eu sou apenas um homem.
+Mas se estivermos juntos eu tornarei todos os meus seguidores invencíveis. 
+Se me seguirem, serei o escudo entre o povo e o inferno. Eu sou Kuma... e hoje eu me torno vosso punho!
+
+[[Escolha 2 – |Tirar_dos_inimigos_e_dar_aos_apoiadores]]
+— Cada golpe que nos deram será devolvido em dobro!
+Eu vou arrancar dos nossos inimigos a força e a saúde que tomaram de nós — e entregarei aos que lutarem ao nosso lado.
+O que tiraram de nós... agora será nossa arma!
+
+[[Escolha 3 – |Tirar_dos_inimigos_e_dar_a_todo_o_povo_do_sul]]
+— Vou tomar dos opressores tudo o que acumularam!
+Sua força, sua vida, sua arrogância — será devolvida ao povo do sul!
+Seremos fortes juntos. E com o poder de vocês em mim... venceremos!
+
+
+:: Direto {"position":"2175,1975","size":"100,100"}
+**Contador**
+
+— Perfeito! Muito obrigado pela cooperação!
+
+**Kuma**
+Apenas da as costas e segue andando, até que...
+
+[[Parar para observar o local |Mae_Entrega_Filho]]
+
+
+:: Entregar_tributo {"position":"1900,3700","size":"100,100"}
+Você entrega seu tributo e se afasta, entra no caminho de volta para casa.
+
+
+
+[[|Cena_Velho_Machucado]]
+
+
+:: Esconder_o_Corpo {"position":"400,2000","size":"100,100"}
+Após esconder o corpo Kuma segue normalmente para o posto de coleta. 
+
+[[Seguir para o posto de coleta |Posto_de_Coleta]]
+
+
+:: Explicacao_dos_ultimos_anos {"position":"600,400","size":"100,100"}
+**Velho:**  
+Primeiro tivemos alguns anos de seca... 
+Nessa época o mar virou nossa grande esperança, alguns continuaram cultivando, mas a maior parte de nossa comida vinha do mar. Conseguimos superar essa época com algumas dificuldades, mas nunca nos recuperamos dos conflitos internos que enfrentamos...
+
+Depois disso, o rei antigo morreu subtamente e seu filho assumiuo o trono ainda jovem, isso já faz 13 anos. Muita coisa piorou desde que ele começou a governar. Graças a ele nosso povo esta mais desunido que nunca.
+
+[[Quais conflitos? |Apresenta_revoltados]]  
+[[Malditos monarcas, nunca representam algo bom |Apresenta_revoltados]]  
+[[Continuar ouvindo? |Fim_da_Apresentacao_das_dificuldades]]  
+
+
+
+
+:: Falar_sobre_seu_poder_e_se_apresentar_como_líder {"position":"700,4300","size":"100,100"}
+[[Escolha 1 – |Quando_todos_os_inimigos_forem_mortos]]
+— Essa guerra não acabará até que o último opressor caia!
+Cada soldado, cada nobre, cada cúmplice — todos pagarão.
+Não aceitaremos mais pactos com quem sempre nos destruiu!
+
+[[Escolha 2 – |Quando_o_povo_do_sul_estiver_seguro]]
+— A luta termina quando cada casa tiver pão e paz.
+Quando não houver mais crianças temendo os passos da guarda.
+A vitória virá quando o povo do sul puder sonhar de novo.
+
+[[Escolha 3 – |Quando_o_rei_for_deposto]]
+— Essa guerra não tem outro fim senão o trono vazio.
+O rei deve cair. Sua estátua deve ruir.
+E nas cinzas do palácio, escreveremos uma nova era!
+
+[[Escolha 4 – |Quando_o_imposto_for_retirado]]
+— A revolução se encerra quando o tributo da dor for destruído!
+O imposto que nos suga, que nos mata — será arrancado com nossas próprias mãos.
+E nunca mais pagaremos para sofrer!
+
+
+:: Fim_Pai_Adotivo {"position":"2400,3700","size":"100,100"}
+Você conseguiur fugir e se esconder coma criança, agora irá cria-la longe das dores do passado!
+
+
+:: Fim_da_Apresentacao_das_dificuldades {"position":"600,800","size":"100,100"}
+ **Velho:**  
+— O rei chamou de Tributo de Pureza. Bonito, né?
+Mas é só mais uma faca disfarçada de flor.
+
+— Todo mês, cada família tem que pagar com ouro... ou com suor. Quem não tem dinheiro, entrega seus pertences, roupas, moveis, comida , água limpa, em ultimo caso, suas casas passam a pertencer ao rei. Quando não se tem nem isso então, não tem mais nada a oferecer e quem não tiver nada a oferecer precisa pagar seu tributo através de trabalho nas regiões reais. Isso significa, em suas fazendas, minas, navios, exército ou em seus aposentos...
+
+— Atualmente pagar o tributo é única coisa que importa, a moralidade das pessoas muda bastante quando correm o risco de perder suas familias. Quem tinha para onde ir já foi
+Escolher viver aqui vem com o custo de trabalhar até a completa exautão. Desde as crianças até os idosos, todos precisam dar um jeito de sobreviver.
+
+Se você resolver ficar, também terá que lidar com isso.
+
+[[Eu vou ajudar essas pessoas! |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+[[Vou por um fim nisto! Este povo merece liberdade |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+[[Este foi o lar da minha família e será o meu! |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+[[Tenho certeza de que conseguirei me virar bem! |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+[[Ninguém me fará escravo de novo |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+
+:: Fim_fugitivo {"position":"2500,3500","size":"100,100"}
+Você considerou que seria melhor dar uma nova chance para a criança, conseguiu despistar os guardas e o contador se mostrou uma boa pessoa, manteve o tributo como pago mesmo devolvendo a criança e subornou os guardas para não comentarem.
+ Entretando agora, você terá que voltar para o mar e encontrar um novo lugar para começar uma nova vida.
+
+
+:: Gentil {"position":"1775,1975","size":"100,100"}
+**Contador**
+— Eu também não queria estar aqui. Muitos no norte detestam e protestam contra essa lei. 
+
+Algumas outras vilas já estão recebendo doações e assitência por parte de iniciativas de cidadãos. 
+
+O problema é o rei, os impostos no norte também são muito altos. Espero que um dia consigamos nos livrar dele.
+
+
+**Kuma**
+— Ouvir isso, abriu meus olhos para novas possibilidades!
+
+[[Entregar Imposto e voltar para casa |Cena_Velho_Machucado]]
+[[Observar a praça ao decorrer do dia. |Pré_Mae_Entrega_Filho]]
+
+
+:: Infiigr_dano_emocional {"position":"3050,3375","size":"100,100"}
+Você retira o estresse emocional das pessoas ao redor e deposita toda a tristeza, medo, terror e ansiedade que conseguiu reunir nos soldados que se encontravam lá, eles nunca mais foram os mesmos...
+
+Nenhum imposto foi recolhido naquele dia e nenhum ataque veio no dia seguinte.
+
+
+:: Iniciar_Guerra {"position":"300,2700","size":"100,100"}
+\:: Cena_Revolta
+A tenda central ainda está montada. Os contadores e médicos estão guardando papéis e suprimentos, prestes a partir.  
+As famílias já haviam se dispersado, mas vozes sempre sussurram no centro da miséria.  
+
+Kuma entra no meio da praça com o corpo do soldado sobre os ombros.  
+
+Silêncio.
+
+Ele o joga com força no chão da tenda, os ossos estalam.  
+Os olhos dos oficiais se arregalam. Um médico grita.  
+Moradores começam a sair de suas casas, atraídos pelo som seco da queda.  
+Soldados no entorno sacam suas armas.  
+Mas antes que ajam, Kuma fala — sua voz ecoa mais que qualquer trombeta de guerra.
+Monte o discurso
+**Kuma:**  
+— Esse homem chamava vocês de ratos.  
+Chamava suas famílias de sujeira. Disse que essa vila deveria ser queimada.
+
+Ele caminha entre os soldados, sem medo. Os olhos de cada morador se fixam nele.
+
+**Kuma:**  
+— E tudo isso... para quê?  
+Para alimentar um rei que vive em ouro, enquanto vocês enterram os filhos na lama?
+
+[[Escolha 1 |Liberdade_e_dignidade]]
+
+
+[[Escolha 2 | Família_e_segurança]]
+
+[[Escolha 3 – |Orgulho_e_unidade]]
+
+[[Escolha 4 – |Vingança_pelos_últimos_anos]]
+
+
+
+:: Inspirar {"position":"2400,3100","size":"100,100"}
+**Kuma**
+
+[[— Podemos nos juntar para compensar pela criança|Pedir_Ajuda]]
+[[— Eu mesmo irei salvar essa criança!|Conferir]]
+[[— Se não fizermos nada agora, parte de nossa humanidade estará morrendo|Pedir_Ajuda]]
+[[— Como vocês vão conseguir dormir a noite sem saber o que vai acontecer com essa criança?|Pedir_Ajuda]]
+
+
+
+:: Levante_violento_contra_o_povo_do_norte {"position":"600,4100","size":"100,100"}
+Eu sou Kuma, portador do poder da pata, posso tirar de uma pessoa a fadiga, o cansaço e tristeza e deposita-la em outro ser, mas também posso retirar a saúde de um e dar a outro, tirar a felicidade e a alegria e distribuil-la.
+
+
+[[Escolha 1 – |Falar_sobre_seu_poder_e_se_apresentar_como_líder]]
+— Eu sou apenas um homem.
+Mas se estivermos juntos eu tornarei todos os meus seguidores invencíveis. 
+Se me seguirem, serei o escudo entre o povo e o inferno. Eu sou Kuma... e hoje eu me torno vosso punho!
+
+[[Escolha 2 – |Tirar_dos_inimigos_e_dar_aos_apoiadores]]
+— Cada golpe que nos deram será devolvido em dobro!
+Eu vou arrancar dos nossos inimigos a força e a saúde que tomaram de nós — e entregarei aos que lutarem ao nosso lado.
+O que tiraram de nós... agora será nossa arma!
+
+[[Escolha 3 – |Tirar_dos_inimigos_e_dar_a_todo_o_povo_do_sul]]
+— Vou tomar dos opressores tudo o que acumularam!
+Sua força, sua vida, sua arrogância — será devolvida ao povo do sul!
+Seremos fortes juntos. E com o poder de vocês em mim... venceremos!
+
+
+:: Liberdade_e_dignidade {"position":"600,3900","size":"100,100"}
+Lutaremos por aquilo que ninguém pode tirar à força: nossa liberdade e nossa dignidade.Por cada vida pisada, por cada voz silenciada, nós vamos levantar a cabeça.
+Não mais como servos, mas como homens e mulheres livres! 
+
+[[Escolha 1 – |Levante_violento_contra_o_povo_do_norte]]
+— Vamos levar o fogo para o norte, para que sintam em suas peles o que causaram à nossa!
+Não haverá trégua, não haverá piedade. Quem se calou diante da dor do sul será agora julgado por ela.
+
+[[Escolha 2 – |Derrubar_o_rei_e_salvar_os_levados]]
+— Vamos até a capital!
+Vamos derrubar o rei e libertar cada homem, mulher e criança arrastados para os campos do medo!
+Lutamos não por destruição, mas por salvação!
+
+[[Escolha 3 – |Destruir_o_governo_e_seus_aliados]]
+— Não queremos apenas o rei. Queremos cada dedo sujo que sustentou esse trono!
+Vamos arrancar o sistema pela raiz, e construir um novo mundo sobre as ruínas dos tiranos!
+
+[[Escolha 4 – |Morrer_lutando_é_melhor_do_que_ajoelhar-se]]
+— Preferimos morrer em pé do que viver de joelhos!
+Se a guerra é o preço da dignidade, pagaremos com sangue, suor e esperança!
+E cada gota será semente de liberdade!
+
+
+:: Mae_Entrega_Filho {"position":"1675,3600","size":"100,100"}
+**Kuma**
+Você viu aquilo?? Aquela mulher colocou um bebê na tenda? Ela acabou de entrar com um no colo, e saiu sem nada.
+
+Pessoas ignoram e fingem não ter ouvido o que você disse, ninguem esboçou a minima reação.
+
+[[Perguntar mais alto para todos por perto |Perguntar]]
+[[Se aproximar da tenda para conferir |Conferir]]
+[[Seguir até o contador para entregar o tributo |Entregar_tributo]]
+
+
+
+:: Matar_Soldado {"position":"225,2025","size":"100,100"}
+O soldado esta morto.
+
+[[Esconder o corpo para que niguem encontre |Esconder_o_Corpo]]
+[[Levar o corpo como tributo até a tenda para incitar um confronto |Iniciar_Guerra]]
+
+
+:: Morrer_lutando_é_melhor_do_que_ajoelhar-se {"position":"800,4100","size":"100,100"}
+Eu sou Kuma, portador do poder da pata, posso tirar de uma pessoa a fadiga, o cansaço e tristeza e deposita-la em outro ser, mas também posso retirar a saúde de um e dar a outro, tirar a felicidade e a alegria e distribuil-la.
+
+
+[[Escolha 1 – |Falar_sobre_seu_poder_e_se_apresentar_como_líder]]
+— Eu sou apenas um homem.
+Mas se estivermos juntos eu tornarei todos os meus seguidores invencíveis. 
+Se me seguirem, serei o escudo entre o povo e o inferno. Eu sou Kuma... e hoje eu me torno vosso punho!
+
+[[Escolha 2 – |Tirar_dos_inimigos_e_dar_aos_apoiadores]]
+— Cada golpe que nos deram será devolvido em dobro!
+Eu vou arrancar dos nossos inimigos a força e a saúde que tomaram de nós — e entregarei aos que lutarem ao nosso lado.
+O que tiraram de nós... agora será nossa arma!
+
+[[Escolha 3 – |Tirar_dos_inimigos_e_dar_a_todo_o_povo_do_sul]]
+— Vou tomar dos opressores tudo o que acumularam!
+Sua força, sua vida, sua arrogância — será devolvida ao povo do sul!
+Seremos fortes juntos. E com o poder de vocês em mim... venceremos!
+
+
+:: Orgulho_e_unidade {"position":"400,3900","size":"100,100"}
+Lutaremos pelo orgulho esquecido deste povo!
+Somos filhos da terra rachada e do mar cruel, e mesmo assim continuamos de pé!
+Chegou a hora de unirmos nossos corações e lutarmos como um só corpo!
+
+
+[[Escolha 1 – |Levante_violento_contra_o_povo_do_norte]]
+— Vamos levar o fogo para o norte, para que sintam em suas peles o que causaram à nossa!
+Não haverá trégua, não haverá piedade. Quem se calou diante da dor do sul será agora julgado por ela.
+
+[[Escolha 2 – |Derrubar_o_rei_e_salvar_os_levados]]
+— Vamos até a capital!
+Vamos derrubar o rei e libertar cada homem, mulher e criança arrastados para os campos do medo!
+Lutamos não por destruição, mas por salvação!
+
+[[Escolha 3 – |Destruir_o_governo_e_seus_aliados]]
+— Não queremos apenas o rei. Queremos cada dedo sujo que sustentou esse trono!
+Vamos arrancar o sistema pela raiz, e construir um novo mundo sobre as ruínas dos tiranos!
+
+[[Escolha 4 – |Morrer_lutando_é_melhor_do_que_ajoelhar-se]]
+— Preferimos morrer em pé do que viver de joelhos!
+Se a guerra é o preço da dignidade, pagaremos com sangue, suor e esperança!
+E cada gota será semente de liberdade!
+
+
+:: Pagar {"position":"2800,3375","size":"100,100"}
+Você deu quase todo o dinheiro queghavia sobrado, mas conseguiur salvar o bebê. Quando tentou devolver para a mãe, ela confessou não ter a miníma condição, o pai da criança já havia sido levado um ano atrás.
+
+Você se tornou responsável pela criança, deu a ela o nome de Bonney, criou-a como uma filha em um outro país, este foi o desejo da mãe dela.
+
+
+:: Passagem sem Título {"position":"600,0","size":"100,100"}
+\:: Encontro na Costa
+O sol está baixo no horizonte, tingindo o mar com tons de cobre. Kuma avança pela praia de cascalho, sentindo a areia queimada pelo sol sob os pés. O cheiro salgado da maresia é familiar, mas há algo estranho no ar: silêncio demais, barcos de menos, sorrisos de menos.
+
+Adiante, um velho pescador lança suas redes ao mar, como se fosse um ritual eterno. Suas mãos trêmulas indicam idade, mas seus olhos atentos revelam que ele ainda carrega algo dentro de si — talvez esperança, talvez só sobrevivência.
+
+O velho nota Kuma se aproximando, mas não se assusta.
+
+**Velho:**  
+— Hmm... essas roupas... essa postura... você não é daqui, é? Espera... você é o menino da família Bartholomeu? Kuma?
+
+**Kuma:**  
+— Sim... faz muitos anos. Estou de volta.
+
+O velho sorri de forma triste.
+
+**Velho:**  
+— Que os ventos tenham te trazido paz, garoto.  
+Depois de tudo que esse lugar virou, é raro ver alguém voltando...
+
+Kuma sente um peso no peito. A vila parece diferente. Vazia. Esquecida.
+
+Ele respira fundo antes de responder. O que perguntar?
+<<run sendChoice("Teste", "Sistema", "Teste de envio", 2.1, "99")>>
+[[ O que aconteceu com a vila?|Cena_Povo][$escolha = "perguntar sobre taverna"]]  
+[[Por que tudo parece tão abandonado?|Cena_Abandono][$escolha = "perguntar sobre taverna"]]  
+[[Você está bem, velho pescador? Como é o seu nome?|Cena_Pessoal][$escolha = "perguntar sobre taverna"]]
+
+\::ID: Encontro_na_Costa
+
+
+
+:: Pedir_Ajuda {"position":"2600,3200","size":"100,100"}
+**Mãe**
+— Você não entende, Nós temos medo, não podemos desafia-los, ninguem estará aqui para nos defender amanhã!
+
+**Kuma**
+[[— Eu estarei aqui e acabarei com todos eles se for necessário|Ataque]]
+[[— Juntos seremos fortes o suficiente para proteger a nós mesmo|Ataque]]
+[[— Nosso medo estará morto, quando nós pusermos fim aos nossos inimigos|Ataque]]
+[[— Não agir nos torna cumplices, algo precisa ser feito|Agir]]
+
+
+:: Perguntar {"position":"2100,2900","size":"100,100"}
+**Kuma**
+
+[[— BANDO DE COVARDES VOCÊS VÃO CONTINUAR FINGINDO QUE NÃO VIRAM?!|Agir]]
+[[— Precisamos fazer algo, essa situação é inadimissivel!|Inspirar]]
+[[— Como isso chegou a esse ponto? como isso se tornou algo aceitavel por aqui??|Inspirar]]
+
+
+:: Posto_de_Coleta {"position":"950,2150","size":"100,100"}
+ Ao chegar na praça onde esta a tenda de coleta, há poucas pessoas ao redor.
+ Cerca de 5 soldados protegendo os tributos um contador sentado anotando as familias que estão levando os tributos e um médico averiguando a saúde bucal de duas crianças.
+ 
+ 
+ [[Parar para observar o local |Mae_Entrega_Filho]]
+ [[Reclamar sobre a situação com uma Senhora |Reclamar]]
+ [[Depositar tributo pacificamente |Depositar]]
+ [[Reclamar com o contador sobre como o guarda lhe tratou |Reclamar_Com_Contador]]
+ 
+
+
+:: Primeiro_Recolhimento {"position":"100,1100","size":"100,100"}
+\:: Cena_Coleta1
+O sol mal havia subido e a vila já estava agitada.  
+Pais segurando filhos, mães cochichando ordens, velhos curvados em sacos — todos indo em direção à tenda central.  
+Kuma caminha devagar, um pacote volumoso em suas costas.
+
+Em certo momento se viu sozinho com um soldado um dos soldados do rei de pé, alguns metros a frente. Ele esta armado e parece estar apenas patrulhando a região.
+
+Kuma se aproxima.
+
+**Kuma:**  
+— Olá, Bom dia, você poderia me ajudar? Quero saber como funciona essa coleta? É meu primeiro retorno à vila.
+
+O soldado ergue uma sobrancelha. Seu rosto se contorce num sorriso arrogante.
+
+**Soldado:**  
+— Ah, mais um perdido que voltou pro buraco.  
+A coleta é simples: hoje todos vêm por bem. Trazem o que têm, dizem seus nomes, mostram suas doenças e fingem dignidade.  
+Amanhã, voltamos com um pouco menos de bondade.
+
+Ele cospe no chão, próximo ao pé de uma criança que passa.
+
+**Soldado:**  
+— Um lugar como esse devia ter sido queimado há anos. Só gente fraca, suja e inútil.  
+
+Kuma sente o sangue ferver. Poder, dor e memória se agitam dentro dele.
+
+[[Muito Obrigado! :) |Posto_de_Coleta]]  
+[[Sinto muito que pense assim, boas pessoas vivem aqui, sua forma de pensar é triste!|Cena_Rebater]]  
+[[Você merece o inferno que vai receber |Cena_Agressao_Verbal]]  
+[[Atacar o soldado. |Cena_Agressao_Fisica]]
+
+
+
+
+
+:: Pré_Mae_Entrega_Filho {"position":"1575,2075","size":"100,100"}
+Kuma entrega o tributo e afasta até que...
+
+
+[[ |Mae_Entrega_Filho]]
+
+
+:: Quando_o_imposto_for_retirado {"position":"800,4500","size":"100,100"}
+[[| Final_Revolucionario]]
+
+
+:: Quando_o_povo_do_sul_estiver_seguro {"position":"1000,4500","size":"100,100"}
+[[| Final_Revolucionario]]
+
+
+:: Quando_o_rei_for_deposto {"position":"400,4500","size":"100,100"}
+[[| Final_Revolucionario]]
+
+
+:: Quando_todos_os_inimigos_forem_mortos {"position":"600,4500","size":"100,100"}
+[[| Final_Revolucionario]]
+
+
+:: Reclamar {"position":"1400,2975","size":"100,100"}
+**Kuma**
+
+-- Você não acha um absurdo termos que passar por isso?
+
+**Senhora**
+
+-- Por favor, não fale essas coisas em voz tão alta. Não quero arrumar confusão.
+
+[[Quantos tributos você já entregou? |Conversa_Senhora]]
+[[Já aconteceu alguma confusão no dia da coleta? Achei que eles sóficassem viollentos amanhã |Conversa_Ironizando]]
+[[Não se preocupe, eles estão longe, vamos ficar bem |Conversa_Sincera]]
+
+
+:: Reclamar_Com_Contador {"position":"1875,1675","size":"100,100"}
+**Contador**
+
+-- Olá. Se for alfabetizado pode pegar um desses formulários e responder! 
+Caso contrario, preciso saber seu nome, endereço e idade. Você vive sozinho?....
+
+Responda de uma vez, este é um dia longo.
+
+**Kuma**
+
+[[— Kuma. Antiga residência Bartholomeu, zona sul. Quarenta anos. Vivo sozinho.|Direto]]
+
+[[— Alfabetizado sim, obrigado.|Direto]]
+
+[[— Como você pode fazer esse trabalho com tanta normalidade? Meu nome é Kuma. Você não vai esquecer.|Desafio]]
+
+[[— Seu tom de desprezo me entristece, mas entendo suas obrigações|Gentil]]
+
+
+:: Tirar_dos_inimigos_e_dar_a_todo_o_povo_do_sul {"position":"450,4300","size":"100,100"}
+
+
+[[Escolha 1 – |Quando_todos_os_inimigos_forem_mortos]]
+— Essa guerra não acabará até que o último opressor caia!
+Cada soldado, cada nobre, cada cúmplice — todos pagarão.
+Não aceitaremos mais pactos com quem sempre nos destruiu!
+
+[[Escolha 2 – |Quando_o_povo_do_sul_estiver_seguro]]
+— A luta termina quando cada casa tiver pão e paz.
+Quando não houver mais crianças temendo os passos da guarda.
+A vitória virá quando o povo do sul puder sonhar de novo.
+
+[[Escolha 3 – |Quando_o_rei_for_deposto]]
+— Essa guerra não tem outro fim senão o trono vazio.
+O rei deve cair. Sua estátua deve ruir.
+E nas cinzas do palácio, escreveremos uma nova era!
+
+[[Escolha 4 – |Quando_o_imposto_for_retirado]]
+— A revolução se encerra quando o tributo da dor for destruído!
+O imposto que nos suga, que nos mata — será arrancado com nossas próprias mãos.
+E nunca mais pagaremos para sofrer!
+
+
+:: Tirar_dos_inimigos_e_dar_aos_apoiadores {"position":"950,4300","size":"100,100"}
+[[Escolha 1 – |Quando_todos_os_inimigos_forem_mortos]]
+— Essa guerra não acabará até que o último opressor caia!
+Cada soldado, cada nobre, cada cúmplice — todos pagarão.
+Não aceitaremos mais pactos com quem sempre nos destruiu!
+
+[[Escolha 2 – |Quando_o_povo_do_sul_estiver_seguro]]
+— A luta termina quando cada casa tiver pão e paz.
+Quando não houver mais crianças temendo os passos da guarda.
+A vitória virá quando o povo do sul puder sonhar de novo.
+
+[[Escolha 3 – |Quando_o_rei_for_deposto]]
+— Essa guerra não tem outro fim senão o trono vazio.
+O rei deve cair. Sua estátua deve ruir.
+E nas cinzas do palácio, escreveremos uma nova era!
+
+[[Escolha 4 – |Quando_o_imposto_for_retirado]]
+— A revolução se encerra quando o tributo da dor for destruído!
+O imposto que nos suga, que nos mata — será arrancado com nossas próprias mãos.
+E nunca mais pagaremos para sofrer!
+
+
+:: Vingança_pelos_últimos_anos {"position":"800,3900","size":"100,100"}
+Lutaremos por cada lágrima derramada!
+Por cada injustiça engolida em silêncio, por cada corpo levado sob a escuridão.
+A vingança será o fogo que purifica — e esse fogo começa aqui!
+
+
+[[Escolha 1 – |Levante_violento_contra_o_povo_do_norte]]
+— Vamos levar o fogo para o norte, para que sintam em suas peles o que causaram à nossa!
+Não haverá trégua, não haverá piedade. Quem se calou diante da dor do sul será agora julgado por ela.
+
+[[Escolha 2 – |Derrubar_o_rei_e_salvar_os_levados]]
+— Vamos até a capital!
+Vamos derrubar o rei e libertar cada homem, mulher e criança arrastados para os campos do medo!
+Lutamos não por destruição, mas por salvação!
+
+[[Escolha 3 – |Destruir_o_governo_e_seus_aliados]]
+— Não queremos apenas o rei. Queremos cada dedo sujo que sustentou esse trono!
+Vamos arrancar o sistema pela raiz, e construir um novo mundo sobre as ruínas dos tiranos!
+
+[[Escolha 4 – |Morrer_lutando_é_melhor_do_que_ajoelhar-se]]
+— Preferimos morrer em pé do que viver de joelhos!
+Se a guerra é o preço da dignidade, pagaremos com sangue, suor e esperança!
+E cada gota será semente de liberdade!
+
+
+:: justificativa {"position":"400,725","size":"100,100"}
+**Velho**
+Iniciar uma luta agora seria como assinar uma sentença de morte, mesmo que todos se unissem não somos fortes o suficiente. Todos os que não se rendessem seriam mortos como da ultima vez. Os que desistissem se tornariam escravos, nem imaginamos o que poderiam fazer com as crianças. 
+
+Esta vida não é a que sonhamos, mas é a única que temos, continuar vivo, aqui, já é um ato de coragem. Nossa existência é uma verdadeira luta.
+
+[[Isto não é vida, é escravidão! A única forma de se libertarem é lutando! |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+[[Compreendo a angustia e as escolhas, afinal estão todos sendo feitos reféns|CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+[[Os covardes merecem as correntes que ganham |CENA FINAL DA PRIMEIRA INTERAÇÃO]]  
+
+
+
+:: StoryScript [script]
+window.sendChoice = function(playerName, npcName, action, timeTaken, age) {
+	const endpoint = "https://script.google.com/macros/s/AKfycby-QoAxG5r6aFNr4dNGDqtm_wbc3amavWEid9kaqyue6NYjyRm8Sbl5zU46t-AB3fWi8g/exec";
+
+	const payload = {
+		name: playerName,
+		age: age,
+		npc: npcName,
+		action: action,
+		time: timeTaken.toString()
+	};
+
+	fetch(endpoint, {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json"
+		},
+		body: JSON.stringify(payload)
+	}).then(response => {
+		if (response.ok) {
+			console.log("Dados enviados com sucesso");
+		} else {
+			console.warn("Falha ao enviar dados: ", response.status);
+		}
+	}).catch(error => {
+		console.error("Erro na requisição:", error);
+	});
+};
